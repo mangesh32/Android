@@ -3,19 +3,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ProfileFragment">
+    tools:context=".tab3">
 
     <!-- TODO: Update blank fragment layout -->
-
-<ListView
-    android:id="@+id/listview"
-    android:layout_width="match_parent"
-    android:layout_height="fill_parent"
-    android:dividerHeight="1dp"
-    android:divider="@color/colorPrimary"
-
-
-    ></ListView>
-
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="This is Tab-3"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:gravity="center_vertical"/>
 
 </FrameLayout>
